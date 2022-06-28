@@ -14,20 +14,31 @@ export default function Cta() {
       <Container>
         <Stack>
           <OverTitle>New Tools</OverTitle>
-          <SectionTitle>New Tools</SectionTitle>
+          <SectionTitle>ICT</SectionTitle>
           <Description>
           New Tools</Description>
           <ButtonGroup>
             <NextLink href="#early-access" passHref>
               <Button>
-              New Tools <span>&rarr;</span>
+              Technincal Support Services <span>&rarr;</span>
               </Button>
             </NextLink>
             <NextLink href="#whitepaper" passHref>
               <OutlinedButton transparent>
-                About <span>&rarr;</span>
+                System Development <span>&rarr;</span>
               </OutlinedButton>
             </NextLink>
+            <NextLink href="#whitepaper" passHref>
+              <OutlinedButton transparent>
+                Maintenance Services <span>&rarr;</span>
+              </OutlinedButton>
+            </NextLink>
+            <NextLink href="#whitepaper" passHref>
+              <OutlinedButton transparent>
+                Network and Facilities Management <span>&rarr;</span>
+              </OutlinedButton>
+            </NextLink>
+
           </ButtonGroup>
         </Stack>
       </Container>
