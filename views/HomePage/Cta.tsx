@@ -13,7 +13,7 @@ export default function Cta() {
     <CtaWrapper>
       <Container>
         <Stack>
-          <OverTitle>New Tools<br>...a World Awaits.</br></OverTitle>
+          <OverTitle>...a World Awaits.</OverTitle>
           <SectionTitle>New Tools: ICT Section</SectionTitle>
           <Description>
           New Tools</Description>
