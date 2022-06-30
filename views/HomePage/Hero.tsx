@@ -13,8 +13,7 @@ export default function Hero() {
   const { setIsModalOpened } = useNewsletterModalContext();
 
   return (
-    <>
-    { setIsModalOpened }
+
     <HeroWrapper>
       <Contents>
         <CustomOverTitle>...a World Awaits.</CustomOverTitle>
@@ -35,7 +34,7 @@ export default function Hero() {
         <HeroIllustration />
       </ImageContainer>
     </HeroWrapper>
-  </>);
+  );
 }
 
 const HeroWrapper = styled(Container)`
