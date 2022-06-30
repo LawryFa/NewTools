@@ -18,8 +18,9 @@ import NewsletterModal from 'components/NewsletterModal';
 import WaveCta from 'components/WaveCta';
 import { NewsletterModalContextProvider, useNewsletterModalContext } from 'contexts/newsletter-modal.context';
 import { NavItems } from 'types';
-import Partners from '../views/HomePage/Partners';
 import Spacer  from '../components/Spacer';
+
+import Partners from '../views/HomePage/Partners';
 
 const navItems: NavItems = [
   
