@@ -26,7 +26,6 @@ import { media } from 'utils/media';
 
 export default function Homepage({ posts }: InferGetStaticPropsType<typeof getStaticProps>) {
 
-  const { setIsModalOpened } = useNewsletterModalContext();
 
   return (
     <>
@@ -39,25 +38,9 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
       </Head>
       <HomepageWrapper>
         <WhiteBackgroundContainer>
-<Partners/>    <Contents>
-        <CustomOverTitle>...a World Awaits.</CustomOverTitle>
-        <Heading>New Tools</Heading>
-
-        <CustomButtonGroup>
-          <Button onClick={() => setIsModalOpened(true)}>
-            Subscribe to the newsletter <span>&rarr;</span>
-          </Button>
-          <NextLink href="#whitepaper" passHref>
-            <Button transparent>
-              Features <span>&rarr;</span>
-            </Button>
-          </NextLink>
-        </CustomButtonGroup>
-      </Contents>
-      <ImageContainer>
-        <HeroIllustration />
-      </ImageContainer>
-      </WhiteBackgroundContainer>
+<Partners/>   
+<Hero/>
+</WhiteBackgroundContainer>
 {/* 
           <BasicSection imageUrl="demo-illustration-1.svg" title="Lorem ipsum dolor sit amet consectetur." overTitle="sit amet gogo">
             <p>
