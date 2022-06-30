@@ -1,5 +1,4 @@
 import NextImage from 'next/image';
-import Container from 'components/Container';
 
 import dynamic from 'next/dynamic';
 import NextLink from 'next/link';
