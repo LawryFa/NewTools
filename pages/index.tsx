@@ -13,8 +13,21 @@ import Partners from 'views/HomePage/Partners';
 import ScrollableBlogPosts from 'views/HomePage/ScrollableBlogPosts';
 import Testimonials from 'views/HomePage/Testimonials';
 import Hero from 'views/HomePage/Testimonials';
+import NextLink from 'next/link';
+import Button from 'components/Button';
+import ButtonGroup from 'components/ButtonGroup';
+import Container from 'components/Container';
+import HeroIllustration from 'components/HeroIllustation';
+import OverTitle from 'components/OverTitle';
+import { useNewsletterModalContext } from 'contexts/newsletter-modal.context';
+import { media } from 'utils/media';
+
+
 
 export default function Homepage({ posts }: InferGetStaticPropsType<typeof getStaticProps>) {
+
+  const { setIsModalOpened } = useNewsletterModalContext();
+
   return (
     <>
       <Head>
@@ -26,8 +39,26 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
       </Head>
       <HomepageWrapper>
         <WhiteBackgroundContainer>
-<Partners/>
-<Hero/>
+<Partners/>    <Contents>
+        <CustomOverTitle>...a World Awaits.</CustomOverTitle>
+        <Heading>New Tools</Heading>
+
+        <CustomButtonGroup>
+          <Button onClick={() => setIsModalOpened(true)}>
+            Subscribe to the newsletter <span>&rarr;</span>
+          </Button>
+          <NextLink href="#whitepaper" passHref>
+            <Button transparent>
+              Features <span>&rarr;</span>
+            </Button>
+          </NextLink>
+        </CustomButtonGroup>
+      </Contents>
+      <ImageContainer>
+        <HeroIllustration />
+      </ImageContainer>
+      </WhiteBackgroundContainer>
+{/* 
           <BasicSection imageUrl="demo-illustration-1.svg" title="Lorem ipsum dolor sit amet consectetur." overTitle="sit amet gogo">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore
@@ -47,8 +78,8 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
               <li>Professional remark 2</li>
               <li>Professional feature 3</li>
             </ul>
-          </BasicSection>
-        </WhiteBackgroundContainer>
+          </BasicSection> */}
+        {/* </WhiteBackgroundContainer> */}
         <DarkerBackgroundContainer>
           <Cta />
           <FeaturesGallery />

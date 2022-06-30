@@ -13,7 +13,6 @@ export default function WaveCta() {
 
   return (
     <>
-     <Partners/>
       <CtaWrapper>
         <Container>
           <Title>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus delectus?</Title>
