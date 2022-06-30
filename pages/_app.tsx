@@ -22,6 +22,7 @@ import Partners from '../views/HomePage/Partners';
 import Spacer  from '../components/Spacer';
 
 const navItems: NavItems = [
+  
   { title: 'About Us', href: '/features' },
   { title: 'Services', href: '/pricing' },
   { title: 'Contact', href: '/contact' },
@@ -45,7 +46,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
       <Providers>
         <Modals />
-        <Navbar items={navItems} />
+<RichText><Navbar items={navItems} /></RichText>        
         <Spacer/>
         <TinaEditProvider
           editMode={

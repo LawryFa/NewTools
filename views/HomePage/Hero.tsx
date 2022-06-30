@@ -17,9 +17,7 @@ export default function Hero() {
   return (
 <AutofitGrid>
     <HeroWrapper>
-      <RichText>
-        ICT Tools & Services
-      </RichText>
+   <LogoWrapper> <NextImage src={'/partners/logoipsum-logo-5.svg'} alt={normalizePartnerLogoName('Nu tools')} width={128} height={78} /></LogoWrapper>
       <Contents>
      <CustomButtonGroup>
           <Button onClick={() => setIsModalOpened(true)}>
