@@ -1,5 +1,5 @@
 import NextImage from 'next/image';
-
+import { media } from 'utils/media';
 import dynamic from 'next/dynamic';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
@@ -194,4 +194,32 @@ const Content = styled(Container)`
 const ColorSwitcherContainer = styled.div`
   width: 4rem;
   margin: 0 1rem;
+`;
+
+const ImageContainer = styled.div`
+  flex: 1;
+
+  position: relative;
+  &:before {
+    display: block;
+    content: '';
+    width: 100%;
+    padding-top: calc((9 / 16) * 100%);
+  }
+
+  & > div {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  ${media('<=desktop')} {
+    width: 100%;
+  }
+`;
+
+const ContentContainer = styled.div`
+  flex: 1;
 `;
