@@ -9,13 +9,13 @@ import { useNewsletterModalContext } from 'contexts/newsletter-modal.context';
 import { media } from 'utils/media';
 import Partners from './Partners';
 import RichText from 'components/RichText';
-
+import AutofitGrid from 'components/AutofitGrid';
 
 export default function Hero() {
   const { setIsModalOpened } = useNewsletterModalContext();
 
   return (
-
+<AutofitGrid>
     <HeroWrapper>
       <RichText>
         ICT Tools & Services
@@ -36,7 +36,7 @@ export default function Hero() {
         <HeroIllustration />
       </ImageContainer>
     </HeroWrapper>
-  );
+    </AutofitGrid>);
 }
 
 const HeroWrapper = styled(Container)`
