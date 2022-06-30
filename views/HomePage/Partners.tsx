@@ -53,7 +53,7 @@ const Title = styled.h3`
   letter-spacing: 0.02em;
   line-height: 0;
   text-transform: uppercase;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
   text-align: center;
   opacity: 0.8;
 
@@ -66,7 +66,7 @@ const PartnersWrapper = styled(Container)`
   .swiper-wrapper {
     will-change: transform;
     transition-timing-function: linear;
-    margin-top: 0.5rem;
+    margin-top: 0.3rem;
     user-select: none;
   }
 
