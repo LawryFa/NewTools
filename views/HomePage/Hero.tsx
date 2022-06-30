@@ -15,8 +15,6 @@ export default function Hero() {
   return (
 
     <HeroWrapper>
-              <Partners/>
-
       <Contents>
         <CustomOverTitle>...a World Awaits.</CustomOverTitle>
         <Heading>New Tools</Heading>
