@@ -19,7 +19,7 @@ const PARTNER_LOGOS = [
 export default function Partners() {
   return (
     <PartnersWrapper>
-      <Title>official partners with</Title>
+      <Title>We offer these services and MORE...</Title>
       <Swiper
         modules={[Autoplay]}
         slidesPerView={6}
@@ -53,7 +53,7 @@ const Title = styled.h3`
   letter-spacing: 0.02em;
   line-height: 0;
   text-transform: uppercase;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   text-align: center;
   opacity: 0.8;
 
@@ -75,7 +75,7 @@ const PartnersWrapper = styled(Container)`
     transition: opacity 0.2s;
 
     &:hover {
-      opacity: 1;
+      opacity: 0.7;
     }
   }
 `;

@@ -7,17 +7,19 @@ import HeroIllustration from 'components/HeroIllustation';
 import OverTitle from 'components/OverTitle';
 import { useNewsletterModalContext } from 'contexts/newsletter-modal.context';
 import { media } from 'utils/media';
+import Partners from './Partners';
 
 export default function Hero() {
   const { setIsModalOpened } = useNewsletterModalContext();
 
   return (
+
     <HeroWrapper>
       <Contents>
-        <CustomOverTitle>New Tools</CustomOverTitle>
+        <Partners/>
+        <CustomOverTitle>...a World Awaits.</CustomOverTitle>
         <Heading>New Tools</Heading>
-        <Description>
-        New Tools  </Description>
+        
         <CustomButtonGroup>
           <Button onClick={() => setIsModalOpened(true)}>
             Subscribe to the newsletter <span>&rarr;</span>
