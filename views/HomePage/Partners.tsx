@@ -36,7 +36,7 @@ export default function Partners() {
       >
         {PARTNER_LOGOS.map((logo) => (
           <SwiperSlide key={logo}>
-            <NextImage src={'/partners/' + logo} alt={normalizePartnerLogoName(logo)} width={128} height={128} />
+            <NextImage src={'/partners/' + logo} alt={normalizePartnerLogoName(logo)} width={128} height={78} />
           </SwiperSlide>
         ))}
       </Swiper>
@@ -53,7 +53,7 @@ const Title = styled.h3`
   letter-spacing: 0.02em;
   line-height: 0;
   text-transform: uppercase;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.01rem;
   text-align: center;
   opacity: 0.8;
 
@@ -66,7 +66,7 @@ const PartnersWrapper = styled(Container)`
   .swiper-wrapper {
     will-change: transform;
     transition-timing-function: linear;
-    margin-top: 0.3rem;
+    margin-top: 0.1rem;
     user-select: none;
   }
 
