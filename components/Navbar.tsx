@@ -68,11 +68,7 @@ export default function Navbar({ items }: NavbarProps) {
     <NavbarContainer hidden={isNavbarHidden} transparent={isTransparent}>
       <Content>
         <NextLink href="/" passHref>
-          <LogoWrapper>
-            <ImageContainer>
-            <NextImage src={'/partners/' + logo} alt={normalizePartnerLogoName(logo)} width={128} height={78} />/
-          </ImageContainer>
-          </LogoWrapper>
+          <RichText>New Tools</RichText>
         </NextLink>
         <NavItemList>
           {items.map((singleItem) => (
