@@ -12,7 +12,7 @@ import Container from './Container';
 import Drawer from './Drawer';
 import { HamburgerIcon } from './HamburgerIcon';
 import Logo from './Logo';
-
+import MDXRichText from '../components.MDXRichText'
 const ColorSwitcher = dynamic(() => import('../components/ColorSwitcher'), { ssr: false });
 
 type NavbarProps = { items: NavItems };
@@ -102,7 +102,7 @@ function NavItem({ href, title, outlined }: SingleNavItem) {
   return (
     <NavItemWrapper outlined={outlined}>
       <NextLink href={href} passHref>
-        <a>{title}</a>
+        <MDXRichText>{title}</MDXRichText>
       </NextLink>
     </NavItemWrapper>
   );
