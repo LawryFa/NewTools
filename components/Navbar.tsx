@@ -69,7 +69,7 @@ export default function Navbar({ items }: NavbarProps) {
       <Content>
         <NextLink href="/" passHref>
           <LogoWrapper>
-            <RichText>Nu toOLS</RichText>
+            <Logo/>
           </LogoWrapper>
         </NextLink>
         <NavItemList>
