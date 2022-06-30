@@ -14,7 +14,7 @@ export default function Hero() {
 
   return (
 
-    <>
+    <HeroWrapper>
       <Contents>
         <CustomOverTitle>...a World Awaits.</CustomOverTitle>
         <Heading>New Tools</Heading>
@@ -33,7 +33,7 @@ export default function Hero() {
       <ImageContainer>
         <HeroIllustration />
       </ImageContainer>
-    </>
+    </HeroWrapper>
   );
 }
 
