@@ -139,9 +139,9 @@ const LogoWrapper = styled.a`
 const NavItemWrapper = styled.li<Partial<SingleNavItem>>`
   background-color: ${(p) => (p.outlined ? 'rgb(var(--primary))' : 'transparent')};
   border-radius: 0.5rem;
-  font-size: 2.3rem;
+  font-size: 1.3em;
   text-transform: uppercase;
-  line-height: 2em;
+  line-height: 3em;
 
   &:hover {
     background-color: ${(p) => (p.outlined ? 'rgb(var(--primary), 0.8)' : 'transparent')};
