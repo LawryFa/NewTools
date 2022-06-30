@@ -18,7 +18,6 @@ export default function Hero() {
       <Contents>
         <CustomOverTitle>...a World Awaits.</CustomOverTitle>
         <Heading>New Tools</Heading>
-        <Partners/>
 
         <CustomButtonGroup>
           <Button onClick={() => setIsModalOpened(true)}>
