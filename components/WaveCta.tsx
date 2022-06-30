@@ -6,7 +6,7 @@ import Container from 'components/Container';
 import SectionTitle from 'components/SectionTitle';
 import { useNewsletterModalContext } from 'contexts/newsletter-modal.context';
 import { media } from 'utils/media';
-import Partners from 'Partners';
+import Partners from 'views/HomePage/Partners';
 
 export default function WaveCta() {
   const { setIsModalOpened } = useNewsletterModalContext();
