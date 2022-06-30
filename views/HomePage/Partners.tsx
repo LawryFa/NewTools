@@ -4,7 +4,6 @@ import styled from 'styled-components';
 import { Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Container from 'components/Container';
-import { media } from 'utils/media';
 
 const PARTNER_LOGOS = [
   'logoipsum-logo-1.svg',
