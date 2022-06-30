@@ -69,12 +69,12 @@ export default function Navbar({ items }: NavbarProps) {
       <Content>
         <NextLink href="/" passHref>
           <LogoWrapper>
-            NewTools
+            <RichText>Nu toOLS</RichText>
           </LogoWrapper>
         </NextLink>
         <NavItemList>
           {items.map((singleItem) => (
-            <NavItem key={singleItem.href} {...singleItem} />
+           <RichText> <NavItem key={singleItem.href} {...singleItem} /></RichText>
           ))}
         </NavItemList>
         <ColorSwitcherContainer>
