@@ -38,7 +38,6 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
       </Head>
       <Partners/>   
 
-      <HomepageWrapper>
 <Hero/>
 
         <DarkerBackgroundContainer>
@@ -48,7 +47,6 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
           <Testimonials />
           <ScrollableBlogPosts posts={posts} />
         </DarkerBackgroundContainer>
-      </HomepageWrapper>
     </>
   );
 }
