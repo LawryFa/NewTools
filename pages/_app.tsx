@@ -18,6 +18,7 @@ import NewsletterModal from 'components/NewsletterModal';
 import WaveCta from 'components/WaveCta';
 import { NewsletterModalContextProvider, useNewsletterModalContext } from 'contexts/newsletter-modal.context';
 import { NavItems } from 'types';
+import Partners from '../views/HomePage/Partners';
 
 const navItems: NavItems = [
   { title: 'About Us', href: '/features' },
@@ -46,6 +47,8 @@ function MyApp({ Component, pageProps }: AppProps) {
         {/* <script async src="https://www.google-analytics.com/analytics.js"></script> */}
       </Head>
       <ColorModeScript />
+      <Partners/>
+
       <GlobalStyle />
 
       <Providers>
