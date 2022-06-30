@@ -1,5 +1,4 @@
 import NextImage from 'next/image';
-import { media } from 'utils/media';
 import dynamic from 'next/dynamic';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
