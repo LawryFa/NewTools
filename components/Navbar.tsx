@@ -141,7 +141,7 @@ const NavItemWrapper = styled.li<Partial<SingleNavItem>>`
   border-radius: 0.5rem;
   font-size: 1.3rem;
   text-transform: uppercase;
-  line-height: 2;
+  line-height: 8em;
 
   &:hover {
     background-color: ${(p) => (p.outlined ? 'rgb(var(--primary), 0.8)' : 'transparent')};
