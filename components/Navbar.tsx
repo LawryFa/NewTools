@@ -10,7 +10,6 @@ import { ScrollPositionEffectProps, useScrollPosition } from 'hooks/useScrollPos
 import { NavItems, SingleNavItem } from 'types';
 import { media } from 'utils/media';
 import Button from './Button';
-import Container from './Container';
 import Drawer from './Drawer';
 import { HamburgerIcon } from './HamburgerIcon';
 import Logo from './Logo';
