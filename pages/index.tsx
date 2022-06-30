@@ -25,7 +25,6 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
       </Head>
       <HomepageWrapper>
         <WhiteBackgroundContainer>
-        <Partners/>
 
           <Hero />
           <BasicSection imageUrl="demo-illustration-1.svg" title="Lorem ipsum dolor sit amet consectetur." overTitle="sit amet gogo">
