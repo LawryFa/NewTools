@@ -1,3 +1,6 @@
+import NextImage from 'next/image';
+import Container from 'components/Container';
+
 import dynamic from 'next/dynamic';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
@@ -69,7 +72,9 @@ export default function Navbar({ items }: NavbarProps) {
       <Content>
         <NextLink href="/" passHref>
           <LogoWrapper>
+            <ImageContainer>
             <NextImage src={'/partners/' + logo} alt={normalizePartnerLogoName(logo)} width={128} height={78} />/
+          </ImageContainer>
           </LogoWrapper>
         </NextLink>
         <NavItemList>
