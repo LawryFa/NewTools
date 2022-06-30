@@ -16,10 +16,10 @@ export default function Hero() {
 
     <HeroWrapper>
       <Contents>
-        <Partners/>
         <CustomOverTitle>...a World Awaits.</CustomOverTitle>
         <Heading>New Tools</Heading>
-        
+        <Partners/>
+
         <CustomButtonGroup>
           <Button onClick={() => setIsModalOpened(true)}>
             Subscribe to the newsletter <span>&rarr;</span>
