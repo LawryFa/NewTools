@@ -12,7 +12,7 @@ import offers from 'views/HomePage/offers';
 import Partners from 'views/HomePage/Partners';
 import ScrollableBlogPosts from 'views/HomePage/ScrollableBlogPosts';
 import Testimonials from 'views/HomePage/Testimonials';
-
+import FeaturesGallery from '../views/HomePage/FeaturesGallery';
 export default function Homepage({ posts }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
     <>

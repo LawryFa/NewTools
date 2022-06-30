@@ -8,6 +8,8 @@ import OverTitle from 'components/OverTitle';
 import { useNewsletterModalContext } from 'contexts/newsletter-modal.context';
 import { media } from 'utils/media';
 import Partners from './Partners';
+import RichText from 'components/RichText';
+
 
 export default function Hero() {
   const { setIsModalOpened } = useNewsletterModalContext();
@@ -15,6 +17,9 @@ export default function Hero() {
   return (
 
     <HeroWrapper>
+      <RichText>
+        ICT Tools & Services
+      </RichText>
       <Contents>
      <CustomButtonGroup>
           <Button onClick={() => setIsModalOpened(true)}>
