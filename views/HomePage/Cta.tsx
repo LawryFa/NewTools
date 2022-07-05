@@ -16,7 +16,7 @@ export default function Cta() {
           <OverTitle>New Tools</OverTitle>
           <SectionTitle>ICT</SectionTitle>
           <Description>
-          New Tools</Description>
+          </Description>
           <ButtonGroup>
             <NextLink href="#early-access" passHref>
               <Button>
