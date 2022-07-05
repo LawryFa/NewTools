@@ -13,7 +13,7 @@ export default function Cta() {
     <CtaWrapper>
       <Container>
         <Stack>
-          <OverTitle>New Tools</OverTitle>
+          <OverTitle>Development Management Consultants</OverTitle>
           <SectionTitle>ICT</SectionTitle>
           <Description>
           </Description>
