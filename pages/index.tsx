@@ -27,7 +27,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
         <WhiteBackgroundContainer>
           <Hero />
           <Partners />
-          <FeaturesGallery />
+          <Features />
 
         </WhiteBackgroundContainer>
         <DarkerBackgroundContainer>
