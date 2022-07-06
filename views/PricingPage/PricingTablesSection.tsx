@@ -26,7 +26,7 @@ export default function PricingTablesSection() {
           title="Economics"
           description="New Tools's DMC arm stretches beyond business"
           benefits={['Participatory Development ', ' Economic and Statistical Analysis', 'Organizational Development', 'Resource Mobilisation']}
-          isOutlined
+          
         >
           $29<span>/month</span>
         </PricingCard>
