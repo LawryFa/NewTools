@@ -14,7 +14,7 @@ export default function Hero() {
   return (
     <HeroWrapper>
       <Contents>
-        <CustomOverTitle>New Tools</CustomOverTitle>
+        <CustomOverTitle>nt</CustomOverTitle>
         <Heading>New Tools</Heading>
         <Description>
         New Tools provides integrated and comprehensive, cutting-edge consultancy services and thought leadership in the following areas; ICT Systems Development and Maintenance Services, ICT Technical Support Services, Project Management, Policy and Strategy Development and Analysis, Knowledge Management – Monitoring, Evaluation and Documentation, Applied Research, Participatory Development, Economic and Statistical Analysis, Organizational Development, Resource Mobilisation, Leadership Development, Change Management, Investment and Business Development,  amongst others.  </Description>
