@@ -40,6 +40,9 @@ export default function Cta() {
               </OutlinedButton> <span>&rarr;</span>
               </NextLink>
 
+              </ButtonGroup>
+
+              <ButtonGroup>
 
               <NextLink href="#whitepaper" passHref>
 
