@@ -18,7 +18,8 @@ export default function Cta() {
           <SectionTitle>.Development Management Consultants (DMC)
 </SectionTitle>
           <Description>
-          DMC offers a wide array of services, including;</Description>
+          For efficient delivery and streamlining of its services, New Tools established Development Management Consultants (DMC) as its subsidiary arm focusing on<br/> Socio-economic Consulting services while it drives ICT related services.</OverTitle>
+
           <ButtonGroup>
             <OutlinedButton>
               Project Management Knowledge Management – Monitoring, Evaluation and Documentation, Applied Research, Participatory Development, Economic and Statistical Analysis, Organizational Development, Resource Mobilisation, Leadership Development, Change Management, Investment and Business Development <span>&rarr;</span>
