@@ -70,7 +70,7 @@ export default function Navbar({ items }: NavbarProps) {
         <NextLink href="/" passHref>
           <LogoWrapper>
             <img
-          src='/testimonials/company-logo-2.svg'
+          src='/testimonials/company-logo-1.svg'
           alt='NT'/>
                </LogoWrapper>
         </NextLink>
