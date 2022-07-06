@@ -19,7 +19,7 @@ const PARTNER_LOGOS = [
 export default function Partners() {
   return (
     <PartnersWrapper>
-      <Title>official partners with</Title>
+      <Title>Here's some of the brands we're affiliated with</Title>
       <Swiper
         modules={[Autoplay]}
         slidesPerView={6}
@@ -71,7 +71,7 @@ const PartnersWrapper = styled(Container)`
   }
 
   .swiper-slide {
-    opacity: 0.8;
+    opacity: 1;
     transition: opacity 0.2s;
 
     &:hover {
