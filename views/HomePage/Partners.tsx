@@ -19,7 +19,7 @@ const PARTNER_LOGOS = [
 export default function Partners() {
   return (
     <PartnersWrapper>
-      <Title>Here's some of the brands we're affiliated with</Title>
+      <Title>Here are some of the brands we're affiliated with</Title>
       <Swiper
         modules={[Autoplay]}
         slidesPerView={6}
