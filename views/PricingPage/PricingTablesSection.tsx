@@ -8,7 +8,7 @@ export default function PricingTablesSection() {
   return (
     <Wrapper>
       <SectionTitle>Development Management Consultancy- DMC
-          </SectionTitle>.
+          </SectionTitle>
           <Description>
           For efficient delivery and streamlining of its services, New Tools established Development Management Consultants (DMC) as its subsidiary arm focusing on Socio-economic Consulting services while it drives ICT related services.
           </Description>
