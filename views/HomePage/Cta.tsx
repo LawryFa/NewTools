@@ -14,7 +14,7 @@ export default function Cta() {
       <Container>
         <Stack>
           <OverTitle>
-          For efficient delivery and streamlining of its services, New Tools established Development Management Consultants (DMC) as its subsidiary arm focusing on Socio-economic Consulting services while it drives ICT related services.</OverTitle>
+          For efficient delivery and streamlining of its services, New Tools established Development Management Consultants (DMC) as its subsidiary arm focusing on<br/> Socio-economic Consulting services while it drives ICT related services.</OverTitle>
           <SectionTitle>.Development Management Consultants (DMC)
 </SectionTitle>
           <Description>
