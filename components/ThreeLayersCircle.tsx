@@ -9,7 +9,7 @@ export interface ThreeLayersCircleProps {
 const ThreeLayersCircle = styled.div<ThreeLayersCircleProps>`
   position: relative;
   display: inline-block;
-  opacity: 0.8;
+  opacity: 1;
   width: 5rem;
   height: 5rem;
   border-radius: 100rem;

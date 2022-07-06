@@ -69,10 +69,10 @@ export default function Navbar({ items }: NavbarProps) {
       <Content>
         <NextLink href="/" passHref>
           <LogoWrapper>
-            <Image
+            <img
           src='/testimonials/company-logo-3.svg'
-          alt='NT'>
-          </Image>          </LogoWrapper>
+          alt='NT'/>
+               </LogoWrapper>
         </NextLink>
         <NavItemList>
           {items.map((singleItem) => (
