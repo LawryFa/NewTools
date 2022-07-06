@@ -7,34 +7,39 @@ import SectionTitle from 'components/SectionTitle';
 export default function PricingTablesSection() {
   return (
     <Wrapper>
-      <SectionTitle>Flexible pricing for agile teams</SectionTitle>
+      <SectionTitle>Development Management Consultancy- DMC
+          </SectionTitle>.
+          <Description>
+          For efficient delivery and streamlining of its services, New Tools established Development Management Consultants (DMC) as its subsidiary arm focusing on Socio-economic Consulting services while it drives ICT related services.
+          </Description>
+
+  
       <AutofitGrid>
         <PricingCard
-          title="free"
-          description="Give us a try for free"
-          benefits={['1 seat', '1 active project', 'Ulimited viewers', '10 blocks']}
+          title="Business Services"
+          description="Here's what we can do for your business"
+          benefits={['Project Management, Policy and Strategy Development and Analysis, Knowledge Management – Monitoring, Evaluation and Documentation, Applied Research,  Leadership Development, Change Management, Investment and Business Development,  amongst others', '1 active project', 'Ulimited viewers', '10 blocks']}
         >
           $0<span>/month</span>
         </PricingCard>
         <PricingCard
-          title="Starter"
-          description="Best for individual desginers"
-          benefits={['1 seat', '3 active project', 'Ulimited viewers', '100 blocks', 'CSV Downloader', 'Password protection']}
+          title="Economics"
+          description="New Tools's DMC arm stretches beyond business"
+          benefits={['Participatory Development ', ' Economic and Statistical Analysis', 'Organizational Development', 'Resource Mobilisation']}
           isOutlined
         >
           $29<span>/month</span>
         </PricingCard>
         <PricingCard
-          title="Premium"
-          description="Get your team together"
+          title="Leadership and Stretegy"
+          description="DMC has services that support your business deicion-making capabilities"
           benefits={[
-            '10 seat',
-            '10 active project',
-            'Ulimited viewers',
-            'Unlimited blocks',
-            'CSV Downloader',
-            'Password protection',
-            'Customization',
+            'Leadership Development,  Investment and ',
+            'Change Management,',
+            'Investment',
+            'Business Development',
+            ,
+            
           ]}
         >
           $79<span>/month</span>
