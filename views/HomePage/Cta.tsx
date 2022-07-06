@@ -19,72 +19,32 @@ export default function Cta() {
           <Description>
           DMC offers a wide array of services, including;</Description>
           <ButtonGroup>
-            <NextLink href="#early-access" passHref>
-              <Button>
+            <OutlinedButton>
               Project Management Knowledge Management – Monitoring, Evaluation and Documentation, Applied Research, Participatory Development, Economic and Statistical Analysis, Organizational Development, Resource Mobilisation, Leadership Development, Change Management, Investment and Business Development <span>&rarr;</span>
-              </Button>
-            </NextLink>
-            <NextLink href="#whitepaper" passHref>
-              <OutlinedButton transparent>
+             
               Policy and Strategy Development and Analysis <span>&rarr;</span>
-              </OutlinedButton>
-            </NextLink>
-            <NextLink href="#whitepaper" passHref>
-              <OutlinedButton transparent>
+             
               Knowledge Management – Monitoring, Evaluation and Documentation <span>&rarr;</span>
-              </OutlinedButton>
-            </NextLink>
-            <NextLink href="#whitepaper" passHref>
-              <OutlinedButton transparent>
-              Applied Research  <span>&rarr;</span>
+             
+              Applied Research  
               </OutlinedButton> <span>&rarr;</span>
-              </NextLink>
+            
 
               </ButtonGroup>
 
               <ButtonGroup>
+            <OutlinedButton>
+              Project Management Knowledge Management – Monitoring, Evaluation and Documentation, Applied Research, Participatory Development, Economic and Statistical Analysis, Organizational Development, Resource Mobilisation, Leadership Development, Change Management, Investment and Business Development <span>&rarr;</span>
+             
+              Policy and Strategy Development and Analysis <span>&rarr;</span>
+             
+              Knowledge Management – Monitoring, Evaluation and Documentation <span>&rarr;</span>
+             
+              Applied Research  
+              </OutlinedButton> <span>&rarr;</span>
+            
 
-              <NextLink href="#whitepaper" passHref>
-
-              <OutlinedButton transparent>
-              Participatory Development <span>&rarr;</span>
-              </OutlinedButton>
-            </NextLink>
-
-
-            <NextLink href="#whitepaper" passHref>
-
-<OutlinedButton transparent>
-Organizational Development and Resource Mobilisation<span>&rarr;</span>
-</OutlinedButton>
-</NextLink>
-
-<NextLink href="#whitepaper" passHref>
-
-<OutlinedButton transparent>
-Leadership Development <span>&rarr;</span>
-</OutlinedButton>
-</NextLink>
-
-<NextLink href="#whitepaper" passHref>
-
-<OutlinedButton transparent>
-Change Management <span>&rarr;</span>
-</OutlinedButton>
-</NextLink>
-
-<NextLink href="#whitepaper" passHref>
-
-<OutlinedButton transparent>
-Investment and Business Development
- <span>&rarr;</span>
-</OutlinedButton>
-</NextLink>
-
-
-
-          </ButtonGroup>
-        </Stack>
+              </ButtonGroup>        </Stack>
       </Container>
     </CtaWrapper>
   );
