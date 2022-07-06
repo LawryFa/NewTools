@@ -17,17 +17,8 @@ export default function Hero() {
         <CustomOverTitle>New Tools</CustomOverTitle>
         <Heading>New Tools</Heading>
         <Description>
-        New Tools  </Description>
-        <CustomButtonGroup>
-          <Button onClick={() => setIsModalOpened(true)}>
-            Subscribe to the newsletter <span>&rarr;</span>
-          </Button>
-          <NextLink href="#whitepaper" passHref>
-            <Button transparent>
-              Features <span>&rarr;</span>
-            </Button>
-          </NextLink>
-        </CustomButtonGroup>
+        New Tools provides integrated and comprehensive, cutting-edge consultancy services and thought leadership in the following areas; ICT Systems Development and Maintenance Services, ICT Technical Support Services, Project Management, Policy and Strategy Development and Analysis, Knowledge Management – Monitoring, Evaluation and Documentation, Applied Research, Participatory Development, Economic and Statistical Analysis, Organizational Development, Resource Mobilisation, Leadership Development, Change Management, Investment and Business Development,  amongst others.  </Description>
+       
       </Contents>
       <ImageContainer>
         <HeroIllustration />
