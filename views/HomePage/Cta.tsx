@@ -13,31 +13,72 @@ export default function Cta() {
     <CtaWrapper>
       <Container>
         <Stack>
-          <OverTitle>New Tools</OverTitle>
-          <SectionTitle>ICT</SectionTitle>
+          <OverTitle>Development Management Consultancy- DMC</OverTitle>
+          <SectionTitle>. For efficient delivery and streamlining of its services, New Tools established Development Management Consultants (DMC) as its subsidiary arm focusing on Socio-economic Consulting services while it drives ICT related services.
+</SectionTitle>
           <Description>
-          New Tools</Description>
+          DMC offers a wide array of services, including;</Description>
           <ButtonGroup>
             <NextLink href="#early-access" passHref>
               <Button>
-              Technincal Support Services <span>&rarr;</span>
+              Project Management Knowledge Management – Monitoring, Evaluation and Documentation, Applied Research, Participatory Development, Economic and Statistical Analysis, Organizational Development, Resource Mobilisation, Leadership Development, Change Management, Investment and Business Development <span>&rarr;</span>
               </Button>
             </NextLink>
             <NextLink href="#whitepaper" passHref>
               <OutlinedButton transparent>
-                System Development <span>&rarr;</span>
+              Policy and Strategy Development and Analysis <span>&rarr;</span>
               </OutlinedButton>
             </NextLink>
             <NextLink href="#whitepaper" passHref>
               <OutlinedButton transparent>
-                Maintenance Services <span>&rarr;</span>
+              Knowledge Management – Monitoring, Evaluation and Documentation <span>&rarr;</span>
               </OutlinedButton>
             </NextLink>
             <NextLink href="#whitepaper" passHref>
               <OutlinedButton transparent>
-                Network and Facilities Management <span>&rarr;</span>
+              Applied Research  <span>&rarr;</span>
+              </OutlinedButton> <span>&rarr;</span>
+              </NextLink>
+
+
+              <NextLink href="#whitepaper" passHref>
+
+              <OutlinedButton transparent>
+              Participatory Development <span>&rarr;</span>
               </OutlinedButton>
             </NextLink>
+
+
+            <NextLink href="#whitepaper" passHref>
+
+<OutlinedButton transparent>
+Organizational Development and Resource Mobilisation<span>&rarr;</span>
+</OutlinedButton>
+</NextLink>
+
+<NextLink href="#whitepaper" passHref>
+
+<OutlinedButton transparent>
+Leadership Development <span>&rarr;</span>
+</OutlinedButton>
+</NextLink>
+
+<NextLink href="#whitepaper" passHref>
+
+<OutlinedButton transparent>
+Change Management <span>&rarr;</span>
+</OutlinedButton>
+</NextLink>
+
+<NextLink href="#whitepaper" passHref>
+
+<OutlinedButton transparent>
+Investment and Business Development
+ <span>&rarr;</span>
+</OutlinedButton>
+</NextLink>
+
+
 
           </ButtonGroup>
         </Stack>
